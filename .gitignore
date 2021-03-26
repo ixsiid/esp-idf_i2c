@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+.pio
+.vscode
+
+/platformio.ini
+/sdkconfig
+/CMakeLists.txt
+/src/CMakeLists.txt

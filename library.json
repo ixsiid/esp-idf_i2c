@@ -1,0 +1,22 @@
+{
+	"name": "I2C",
+	"keywords": "esp32, espidf",
+	"description": "I2C manage class",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ixsiid/esp-idf_i2c.git"
+	},
+	"authors": [
+		{
+			"name": "IXSIID",
+			"email": "ixsiid@halzion.net",
+			"url": "https://halzion.net",
+			"maintainer": true
+		}
+	],
+	"version": "1.0.0",
+	"frameworks": [
+		"espidf"
+	],
+	"platforms": "espressif32"
+}
