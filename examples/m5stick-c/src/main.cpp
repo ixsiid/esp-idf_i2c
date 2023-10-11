@@ -12,11 +12,13 @@ using namespace IXS;
 #define SLAVE_ADDRESS 0x48
 #define REGISTER_ADDRESS 0x55
 
+#pragma pack(1)
 union data_u
 {
 	uint8_t raw[4];
 	TickType_t tick;
 };
+#pragma pack()
 
 void master_task(void *args)
 {
