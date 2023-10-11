@@ -18,6 +18,7 @@ I2CMaster::I2CMaster(i2c_port_t port, gpio_num_t scl, gpio_num_t sda, uint32_t f
 	conf.scl_pullup_en = GPIO_PULLUP_ENABLE;
 
 	conf.master.clk_speed = freq_hz;
+	conf.clk_flags = 0;
 
 	last_error = i2c_param_config(port, &conf);
 	if (last_error == ESP_OK) {
